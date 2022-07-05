@@ -1,0 +1,24 @@
+.card{
+    border-radius: calc(0.3rem - 0px);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+   
+ 
+}
+h1{
+    display: none;
+    
+}
+.card:hover{
+     transform: scale(1.02);
+     opacity: 0.8;
+  }
+  .card:hover  h1 {
+    display: flex;
+  }
+  .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+}

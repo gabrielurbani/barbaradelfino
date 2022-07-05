@@ -1,12 +1,13 @@
 .nav-social {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    justify-content: end;
+
 }
 
 svg.svg-inline--fa {
-    margin: 1em;
-    width: 2em;
-    height: 2em;
-    color: gray;
+    margin: .5em;
+    width: 1em;
+    height: 1em;
+    color: #808080;
    }
